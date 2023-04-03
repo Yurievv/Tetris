@@ -37,8 +37,8 @@ class MainActivity : AppCompatActivity() {
     private fun onBtnResetScoreClick(view: View) {
         val preference = AppPreferences(this)
         preference.clearHighScore()
-        //Snackbar.make(view, "Очки сброшены.", Snackbar.LENGTH_SHORT).show()
-        //tvHighScore?.text = "Очки: ${preference.getHighScore()}"
+        Snackbar.make(view, "Очки сброшены.", Snackbar.LENGTH_SHORT).show()
+        tvHighScore?.text = "Очки: ${preference.getHighScore()}"
     }
 
     private fun onBtnExitClick(view: View) {

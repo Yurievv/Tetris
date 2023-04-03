@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">Tetris</string>
     <string name="high_score_default">Очки: 0</string>
+    <string name="high_score">Очки</string>
+    <string name="current_score">Текущие очки</string>
     <string name="new_game">Новая игра</string>
     <string name="reset_score">Сбросить очки</string>
     <string name="exit">Выход</string>
