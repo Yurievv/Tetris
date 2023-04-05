@@ -36,7 +36,8 @@ tools:context="com.example.tetris.GameActivity">
                 android:id="@+id/tv_current_score"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="18sp"/>
+                android:textSize="18sp"
+                tools:text="0"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -49,7 +50,8 @@ tools:context="com.example.tetris.GameActivity">
                 android:id="@+id/tv_high_score"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="18sp"/>
+                android:textSize="18sp"
+                tools:text="0"/>
         </LinearLayout>
         <Button
             android:id="@+id/btn_restart"
