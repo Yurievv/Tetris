@@ -5,5 +5,6 @@
     <string name="current_score">Текущие очки</string>
     <string name="new_game">Новая игра</string>
     <string name="reset_score">Сбросить очки</string>
+    <string name="btn_restart">Начать заново</string>
     <string name="exit">Выход</string>
 </resources>

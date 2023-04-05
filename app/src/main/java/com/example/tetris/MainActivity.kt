@@ -8,7 +8,6 @@ import android.widget.Button
 import android.widget.TextView
 import com.example.tetris.storage.AppPreferences
 import com.google.android.material.snackbar.Snackbar
-import com.google.androidgamesdk.GameActivity
 import kotlin.system.exitProcess
 
 class MainActivity : AppCompatActivity() {
