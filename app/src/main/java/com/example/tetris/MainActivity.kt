@@ -26,11 +26,19 @@ class MainActivity : AppCompatActivity() {
         btnNewGame.setOnClickListener(this::onBtnNewGameClick)
         btnResetScore.setOnClickListener(this::onBtnResetScoreClick)
         btnExit.setOnClickListener(this::onBtnExitClick)
+
+        updateHighScore()
     }
 
     private fun onBtnNewGameClick(view: View) {
         val intent = Intent(this, GameActivity::class.java)
         startActivity(intent)
+    }
+
+    //@SuppressLint("SetTextI18n")
+    fun updateHighScore() {
+        val preferences = AppPreferences(this)
+        tvHighScore?.text = "High score: ${preferences.getHighScore()}"
     }
 
     private fun onBtnResetScoreClick(view: View) {

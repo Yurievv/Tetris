@@ -7,7 +7,7 @@ class AppPreferences(ctx: Context) {
     private val strHighScore: String = "HIGH_SCORE"
     var data: SharedPreferences = ctx.getSharedPreferences("APP_PREFERENCES", Context.MODE_PRIVATE)
 
-    private fun saveHighScore(highScore: Int){
+    fun saveHighScore(highScore: Int){
         data.edit().putInt(strHighScore, highScore).apply()
     }
 
