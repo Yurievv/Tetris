@@ -68,6 +68,12 @@ tools:context="com.example.tetris.GameActivity">
         android:layout_height="match_parent"
         android:layout_weight="9">
 
+        <!-- Adding TetrisView -->
+        <com.example.tetris.views.TetrisView
+            android:id="@+id/view_tetris"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
     </LinearLayout>
 </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
